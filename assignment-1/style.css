@@ -1,0 +1,94 @@
+.main-section {
+    width: 450px;
+    height: 450px;
+    margin: 100px auto;
+    background: rgb(56, 41, 46);
+    border-radius: 2px;
+    position: relative;
+    transform: scale(1,1);
+    
+}
+
+.rectangle {
+    width: 15px;
+    height: 120px;
+}
+
+.rectangle1 {
+    background: rgb(230, 98, 59);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: rotate(-45deg);
+}
+
+.rectangle2 {
+    background: rgb(43, 170, 229);
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: rotate(45deg);
+}
+
+.rectangle3 {
+    background: rgb(127, 202, 172);
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: rotate(-45deg);
+}
+
+.rectangle4 {
+    background: rgb(185, 180, 176);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: rotate(45deg);
+}
+.small{
+    width: 15px;
+    height: 15px;
+}
+
+.small-reactangle1 {
+   background: rgb(139, 92, 60);
+    position: absolute;
+    top: -11px;
+}
+
+.small-reactangle2 {
+    background: rgb(0, 168, 171);
+    position: absolute;
+    bottom: -11px;
+}
+
+.small-reactangle3 {
+    background: rgb(0, 168, 171);
+    position: absolute;
+    bottom: -11px;
+}
+
+.small-reactangle4 {
+   background: rgb(139, 92, 60);
+    position: absolute;
+    top: -11px;
+}
+
+.text-style {
+    position: absolute;
+    top: 45%;
+    left: 35%
+}
+
+.text-style h1 {
+    font-size: 0.6rem;
+    color: white;
+}
+
+.text-style {
+    font-size: 0.35rem;
+    color: white;
+}
+span{
+    color: rgb(246,94,61);
+}
